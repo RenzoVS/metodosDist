@@ -1,0 +1,27 @@
+.cabecera{
+    border: solid red;
+}
+
+.cabecera div div{
+    border: green solid;
+}
+
+.medio{
+    border: solid red;
+}
+
+.medio div div{
+    border: purple solid;
+}
+
+.abajo{
+    border: solid red;
+}
+
+.abajo div div{
+    border: blue solid;
+}
+
+.abajo p{
+    margin: 0;
+}
