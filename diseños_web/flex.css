@@ -1,33 +1,31 @@
-.cabecera{
+.cabecera {
     display: flex;
-    flex: 2;
-    border: greenyellow solid;
     margin: 0 50px;
+    align-items: center; 
 }
 
-.titulo{
-    border: purple solid;
+.titulo {
     flex: 1;
 }
 
-.titulo img{
-    width: 100%;
-}
-
-.titulo h5,h1{
+.titulo h5, h1 {
     margin: 0;
 }
 
-.img_nintendo{
+.img_nintendo {
     flex: 1;
-    border: blueviolet solid;
-    display: flex; 
+    display: flex;
     justify-content: center;
-    align-items: center; /* Centra verticalmente */
+    align-items: center; 
 }
 
+.img_nintendo img {
+    height: 100px; 
+    width: auto;   
+}
+
+
 .medio{
-    border: blue solid;
     flex: 4;
     display: flex;
     margin: 0 50px;
@@ -35,23 +33,19 @@
 
 .medio_left{
     flex: 1;
-    border: yellow solid;
 }
 
 .medio_medio{
     flex: 2;
-    border: solid aquamarine;
 }
 
 
 .medio_medio p{
-    border: red  solid;
     padding: 20px;
 }
 
 .medio_right {
     flex: 1;
-    border: blueviolet solid;
     display: flex; 
     justify-content: center;
     align-items: center; /* Centra verticalmente */
@@ -59,7 +53,6 @@
 
 
 .abajo{
-    border: green solid;
     margin: 0 50px;
     flex: 2;
     display: flex;
@@ -67,18 +60,15 @@
 }
 
 .abajo_left{
-    border: gray solid;
     flex: 1;
 }
 
 .abajo_right{
-    border: peru solid;
     flex: 1 ;
     
 }
 
 .abajo_right p , .abajo_left p{
-    border: peru solid;
     flex: 1 ;
     text-align: center;
 }
